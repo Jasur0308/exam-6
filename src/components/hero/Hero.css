@@ -1,0 +1,31 @@
+.hero__links {
+    border-top: 1px solid #DDDDDD;
+}
+
+.footer {
+    border-top: 1px solid #CCCCCC;
+}
+
+.footer__cols, .cols__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__cols h4 {
+    font-style: italic;
+    line-height: 16px;
+    color: #767676;
+}
+
+.footer__cols ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__cols a {
+    font-size: 11px;
+    line-height: 12px;
+    color: #767676;
+}

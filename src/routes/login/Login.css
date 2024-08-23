@@ -1,0 +1,18 @@
+.input {
+    border: 1px solid #8F8F8F;
+}
+
+::placeholder {
+    font-size: 14px;
+    line-height: 16.55px;
+    text-align: left;
+    color: #191919;
+}
+
+.button {
+    border: 1px solid #3665F3;
+}
+
+.footer {
+    border-top: 1px solid #CCCCCC;
+}

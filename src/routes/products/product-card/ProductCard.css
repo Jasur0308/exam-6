@@ -1,0 +1,30 @@
+.product-card {
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.star {
+    font-size: 16px;
+    color: #ffb400;
+}
+
+.star.half {
+    position: relative;
+}
+
+.star.half::before {
+    content: "★";
+    position: absolute;
+    left: 0;
+    color: #ffb400;
+    width: 50%;
+    overflow: hidden;
+}
+
+.star.empty {
+    color: #ddd;
+}
